@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+  first-job:
+    runs-on: windows-latest
+    steps:
+      -run: node --version
+      -run: npm -version
